@@ -12,7 +12,7 @@
         /* Custom styles to match your brand */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7; /* Light gray background from your site */
+            background-color: #f7f7f7; /* Light gray background */
             color: #333333; /* Dark gray text */
         }
         .accent-bg {
@@ -21,48 +21,52 @@
         .accent-bg:hover {
             background-color: #73c8b9; /* Slightly darker for hover */
         }
+        /* New style for the secondary button */
+        .secondary-btn {
+            background-color: #ffffff;
+            border: 1px solid #d1d5db; /* gray-300 */
+            color: #374151; /* gray-700 */
+        }
+        .secondary-btn:hover {
+            background-color: #f9fafb; /* gray-50 */
+        }
     </style>
 </head>
 <body class="flex items-center justify-center min-h-screen p-4">
 
-    <div class="max-w-2xl w-full mx-auto text-center bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-gray-200">
+    <div class="max-w-xl w-full mx-auto text-center bg-white p-8 sm:p-12 rounded-2xl shadow-sm border border-gray-200">
         
-        <!-- Logo -->
         <header class="mb-8">
             <img src="./hwyh-new-logo.png" alt="Help With Your Hustle Logo" class="w-48 mx-auto">
         </header>
 
         <main>
-            <!-- Headline -->
             <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-3">
                 We're Evolving.
             </h1>
 
-            <!-- Sub-headline -->
             <h2 class="text-xl sm:text-2xl text-gray-600 mb-10">
-                From Marketing Services to Marketing Systems.
+                A Note from Justin & Lyra
             </h2>
 
-            <!-- Body Copy -->
             <div class="text-lg text-gray-700 space-y-5 leading-relaxed">
                 <p>
-                    After 8+ years of partnering with clients on SEO, content, and web development, the focus of Help With Your Hustle has evolved.
+                    For 8+ years, we ran Help With Your Hustle as a husband-and-wife team. We're incredibly proud of the work we did and the clients we helped.
                 </p>
                 <p>
-                    <strong>We are no longer taking on new client service projects.</strong>
+                    <strong>We are no longer taking on new client projects under this brand.</strong>
                 </p>
                 <p>
-                    Our work is now focused on internal R&D—architecting and engineering the proprietary AI, analytics, and automation platforms that solve modern growth challenges.
-                </p>
-                <p>
-                    I'm documenting this entire journey, from system architecture to execution, over at my personal site.
+                    We've now moved on to focus on our individual work. You can find us here:
                 </p>
             </div>
 
-            <!-- Call to Action (Button) -->
-            <div class="mt-12">
-                <a href="https://justinborge.com" target="_blank" rel="noopener noreferrer" class="accent-bg inline-block text-gray-800 font-bold text-lg px-8 py-4 rounded-lg shadow-md transition-transform transform hover:scale-105">
-                    Follow the New Work at justinborge.com
+            <div class="mt-10 flex flex-col sm:flex-row sm:justify-center gap-4">
+                <a href="https://justinborge.com" target="_blank" rel="noopener noreferrer" class="accent-bg text-gray-800 font-bold text-md px-6 py-3 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    Justin's New Work
+                </a>
+                <a href="https://www.lyrajuinio.com/" target="_blank" rel="noopener noreferrer" class="secondary-btn font-bold text-md px-6 py-3 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    Lyra's Portfolio
                 </a>
             </div>
         </main>
